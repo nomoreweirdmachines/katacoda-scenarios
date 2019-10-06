@@ -6,7 +6,7 @@
   "details": {
     "steps": [{
       "title": "Step 1 - DO THINGS",
-      "text": "createuser.md"
+      "text": "createauser.md"
     },
     { 
       "title": "Step 2 - Step Title",
