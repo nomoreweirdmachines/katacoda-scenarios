@@ -17,12 +17,16 @@
       "text": "step2.md" 
     }, 
     { 
-      "title": "Step 3 - Step Title",
+      "title": "Step 4 - Step Title",
       "text": "step3.md" 
     },
     { 
-      "title": "Step 3 - Step Title",
+      "title": "Step 5 - Step Title",
       "text": "step4.md" 
+    },
+    { 
+      "title": "Step 6 - Step Title",
+      "text": "step5.md" 
     }
    ],
     "intro": {
