@@ -6,11 +6,11 @@
   "details": {
     "steps": [{
       "title": "Step 1 - DO THINGS",
-      "text": "step1.md"
+      "text": "createuser.md"
     },
     { 
       "title": "Step 2 - Step Title",
-      "text": "step2.md" 
+      "text": "step1.md" 
     } 
    ],
     "intro": {
