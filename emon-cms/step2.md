@@ -18,7 +18,6 @@ EOF`{{execute}}
 
 `printf "ServerName localhost" | sudo tee -a /etc/apache2/apache2.conf 1>&2`{{execute}}
 
-`printf "ServerName localhost" | sudo tee -a /etc/apache2/apache2.conf 1>&2`{{execute}}
-
 `sudo a2ensite emoncms`{{execute}}
+
 `sudo service apache2 reload`{{execute}}
