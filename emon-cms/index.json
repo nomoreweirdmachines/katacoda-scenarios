@@ -11,7 +11,15 @@
     { 
       "title": "Step 2 - Step Title",
       "text": "step1.md" 
-    } 
+    },
+    { 
+      "title": "Step 3 - Step Title",
+      "text": "step2.md" 
+    }, 
+    { 
+      "title": "Step 3 - Step Title",
+      "text": "step3.md" 
+    }
    ],
     "intro": {
       "text": "intro.md",
