@@ -1,6 +1,6 @@
 {
   "title": "Nix package manager",
-  "description": "Installing packages with nix",
+  "description": "Installing the nix package manager",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
