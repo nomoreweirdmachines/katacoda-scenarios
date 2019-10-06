@@ -19,9 +19,10 @@ variables are set, either log in again, or type
 
 `. /home/nixuser/.nix-profile/etc/profile.d/nix.sh`{{execute}}
 
-you can do all this one go
+to recap
 
+`useradd -m nixuser -G sudo;su - nixuser`{{execute}}
 
-`useradd -m nixuser -G sudo;su - nixuser; time curl https://nixos.org/nix/install | sh`{{execute}}
+`time curl https://nixos.org/nix/install | sh`{{execute}}
 
 `. /home/nixuser/.nix-profile/etc/profile.d/nix.sh`{{execute}}
