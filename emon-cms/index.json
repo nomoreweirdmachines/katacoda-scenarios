@@ -5,31 +5,31 @@
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - DO THINGS",
+      "title": "Step 1 - add a user with sudo permission",
       "text": "createauser.md"
     },
     { 
-      "title": "Step 2 - Step Title",
+      "title": "Step 2 - update and install deps",
       "text": "step1.md" 
     },
     { 
-      "title": "Step 3 - Step Title",
+      "title": "Step 3 - configure apache",
       "text": "step2.md" 
     }, 
     { 
-      "title": "Step 4 - Step Title",
+      "title": "Step 4 - Install Emoncms with git",
       "text": "step3.md" 
     },
     { 
-      "title": "Step 5 - Step Title",
+      "title": "Step 5 - Configure Mysql Database",
       "text": "step4.md" 
     },
     { 
-      "title": "Step 6 - Step Title",
+      "title": "Step 6 - Create feed engines dirs",
       "text": "step5.md" 
     },
     { 
-      "title": "Step 7 - Step Title",
+      "title": "Step 7 - create a settings.ini",
       "text": "step6.md" 
     }
    ],

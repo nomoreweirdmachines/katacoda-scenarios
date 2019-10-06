@@ -20,7 +20,8 @@ database = "emoncms"
 username = "emoncms"
 password = "password you set for mysql"
 
-redis = disable?????????
+[redis]
+enabled = false
 
 You may also want to configure other settings, see the default-settings.ini file for a list of all available settings.
 
