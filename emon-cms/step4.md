@@ -4,11 +4,12 @@ Create a MYSQL database
 
 Setup the mysql database that emoncms uses.
 
-you will need to enter the password that you set in step 1 :-)
 
 `mysql -u root -p`{{execute}}
 
 `CREATE DATABASE emoncms DEFAULT CHARACTER SET utf8;`{{execute}}
+
+you will to REPLACE root with the mysql password step 1 :-)
 
 `CREATE USER 'emoncms'@'localhost' IDENTIFIED BY 'root';`{{execute}}
 
