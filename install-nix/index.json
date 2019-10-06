@@ -12,6 +12,10 @@
     {
       "title": "Step 2 - install cowsay........ blimey!",
       "text": "step2.md"
+    },
+    {
+      "title": "Step 3 - searching for packages",
+      "text": "step3.md"
     }
     ],
     "intro": {
