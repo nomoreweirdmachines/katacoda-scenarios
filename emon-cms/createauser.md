@@ -9,5 +9,5 @@ start by a user that can sudo to root
 lets do everything else from here as 'normal' user
 
 
-`su - emoncmsuser`{{execute}}
+`su - emoncms`{{execute}}
 
