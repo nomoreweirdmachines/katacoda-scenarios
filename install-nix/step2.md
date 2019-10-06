@@ -8,7 +8,7 @@ Cymande - Dove
 
 let install something....
 
-`install -i cowsay`{{execute}}
+`nix-env -i cowsay`{{execute}}
 
 Okay? that looks weird.... eh? what just happened?
 
