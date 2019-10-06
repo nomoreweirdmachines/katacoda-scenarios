@@ -9,15 +9,8 @@ Emoncms uses a front controller to route requests, modrewrite needs to be config
 
 `sudo bash`{{execute}}
 
-cat <<EOF >> /etc/apache2/sites-available/emoncms.conf
-<Directory /var/www/html/emoncms>
-    Options FollowSymLinks
-    AllowOverride All
-    DirectoryIndex index.php
-    Order allow,deny
-    Allow from all
-</Directory>
-EOF
+please refer to Configure Apache section here
+https://github.com/emoncms/emoncms/blob/master/docs/LinuxInstall.md
 
 `exit`{{execute}}
 

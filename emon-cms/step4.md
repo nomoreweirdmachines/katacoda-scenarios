@@ -9,7 +9,7 @@ Setup the mysql database that emoncms uses.
 
 `CREATE DATABASE emoncms DEFAULT CHARACTER SET utf8;`{{execute}}
 
-you will to REPLACE root with the mysql password step 1 :-)
+you will ***NEED REPLACE*** root with the mysql password from step 1 :-)
 
 `CREATE USER 'emoncms'@'localhost' IDENTIFIED BY 'root';`{{execute}}
 
