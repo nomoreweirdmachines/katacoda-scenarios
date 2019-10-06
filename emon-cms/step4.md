@@ -10,7 +10,7 @@ you will need to enter the password that you set in step 1 :-)
 
 `CREATE DATABASE emoncms DEFAULT CHARACTER SET utf8;`{{execute}}
 
-`CREATE USER 'emoncms'@'localhost' IDENTIFIED BY 'root';
+`CREATE USER 'emoncms'@'localhost' IDENTIFIED BY 'root';`{{execute}}
 
 `GRANT ALL ON emoncms.* TO 'emoncms'@'localhost';`{{execute}}
 
