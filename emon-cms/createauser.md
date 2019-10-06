@@ -4,7 +4,7 @@ Adding a 'normal' user
 
 start by a user that can sudo to root 
 
-`useradd -m emoncmsuser -G sudo`{{execute}}
+`useradd -m emoncms -G sudo`{{execute}}
 
 lets do everything else from here as 'normal' user
 
