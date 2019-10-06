@@ -27,6 +27,10 @@
     { 
       "title": "Step 6 - Step Title",
       "text": "step5.md" 
+    },
+    { 
+      "title": "Step 7 - Step Title",
+      "text": "step6.md" 
     }
    ],
     "intro": {
