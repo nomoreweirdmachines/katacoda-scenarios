@@ -17,3 +17,13 @@ let install something....
 Okay? that looks weird.... eh? what just happened?
 
 `nix search brave`{{execute}}
+
+`cowsay "clever the cows says...: i just tab-complete haskellPackages. from inside nix repl"
+
+`nix repl '<nixpkgs>'`{{execute}}
+
+
+`haskellPackages.`{{execute}}
+
+NOW PRESS TAB key, to tab complete.... rather nice....
+
