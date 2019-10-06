@@ -6,7 +6,7 @@ Emoncms uses a front controller to route requests, modrewrite needs to be config
 
 `sudo a2enmod rewrite`{{execute}}
 
-`sudo cat <<EOF >> /etc/apache2/sites-available/emoncms.conf
+"sudo cat <<EOF >> /etc/apache2/sites-available/emoncms.conf
 <Directory /var/www/html/emoncms>
     Options FollowSymLinks
     AllowOverride All
@@ -14,7 +14,7 @@ Emoncms uses a front controller to route requests, modrewrite needs to be config
     Order allow,deny
     Allow from all
 </Directory>
-EOF`{{execute}}
+EOF"
 
 `printf "ServerName localhost" | sudo tee -a /etc/apache2/apache2.conf 1>&2`{{execute}}
 
