@@ -4,4 +4,4 @@ This is your first step.
 
 Install the nix package manager into your enviroment
 
-`curl https://nixos.org/nix/install | sh`{{execute}}
+`sudo apt-get update `{{execute}}
