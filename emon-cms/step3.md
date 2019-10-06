@@ -17,5 +17,6 @@ Download emoncms using git: (stable branch)
 Once installed you can pull in updates with:
 
 `cd /var/www/html/emoncms`{{execute}}
+
 `git pull`{{execute}}
 
