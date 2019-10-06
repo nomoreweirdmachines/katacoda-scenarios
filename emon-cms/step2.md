@@ -19,6 +19,8 @@ cat <<EOF >> /etc/apache2/sites-available/emoncms.conf
 </Directory>
 EOF
 
+`exit`{{execute}}
+
 `printf "ServerName localhost" | sudo tee -a /etc/apache2/apache2.conf 1>&2`{{execute}}
 
 `sudo a2ensite emoncms`{{execute}}
