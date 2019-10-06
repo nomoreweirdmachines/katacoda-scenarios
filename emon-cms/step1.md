@@ -1,8 +1,8 @@
-This is your first step.
+Install dependencies
 
 ## Task
 
-Install the nix package manager into your enviroment
+start by updating the system repositories
 
 `sudo apt-get update`{{execute}}
 
