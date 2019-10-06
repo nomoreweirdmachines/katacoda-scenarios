@@ -4,6 +4,17 @@ Searching for packages
 
 let install something....
 
+we have to a little 'hack' to get "nix search" to work
+https://github.com/NixOS/nix/issues/1865
+
+`echo $NIX_PATH`{{execute}}
+`echo $nixpkgs`{{execute}}
+
+`NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs`{{execute}}
+
+`echo $NIX_PATH`{{execute}}
+`echo $nixpkgs`{{execute}}
+
 `nix search cowsay`{{execute}}
 
 `nix-env -f '<nixpkgs>' -qaP firefox`{{execute}}
@@ -12,7 +23,7 @@ let install something....
 
 `nix search brave`{{execute}}
 
-`cowsay "clever the cows says...: i just tab-complete haskellPackages. from inside nix repl"`{{execute}}
+`cowsay "clever the cows says... i just tab-complete haskellPackages. from inside nix repl"`{{execute}}
 
 `nix repl '<nixpkgs>'`{{execute}}
 
