@@ -18,7 +18,7 @@ Okay? that looks weird.... eh? what just happened?
 
 `nix search brave`{{execute}}
 
-`cowsay "clever the cows says...: i just tab-complete haskellPackages. from inside nix repl"
+`cowsay "clever the cows says...: i just tab-complete haskellPackages. from inside nix repl"`{{execute}}
 
 `nix repl '<nixpkgs>'`{{execute}}
 
