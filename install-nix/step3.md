@@ -27,3 +27,5 @@ Okay? that looks weird.... eh? what just happened?
 
 NOW PRESS TAB key, to tab complete.... rather nice....
 
+to quit
+`:q`{{execute}}
