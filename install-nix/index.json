@@ -4,10 +4,16 @@
   "difficulty": "beginner",
   "time": "8 seconds ",
   "details": {
-    "steps": [{
-      "title": "Step 1 - Add a user who can sudo",
+    "steps": [
+	    {
+      "title": "Step 1 - install nix package manager on ubnutu",
       "text": "step1.md"
-    }],
+    },
+    {
+      "title": "Step 2 - install cowsay........ blimey!",
+      "text": "step2.md"
+    }
+    ],
     "intro": {
       "text": "intro.md",
       "credits": ""
