@@ -24,7 +24,4 @@ why does it live there?
 
 should i be worried... no!......   :-)
 
-`ls -lha /home/nixuser/.nix-profile/bin/cowsay`{{execute}}
-
-hmmm...... why is is in /nix???
 

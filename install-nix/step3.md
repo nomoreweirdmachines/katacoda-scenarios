@@ -17,13 +17,13 @@ https://github.com/NixOS/nix/issues/1865
 
 `nix search cowsay`{{execute}}
 
+`nix-env -i cowsay`{{execute}}
+
+`cowsay "clever the cows says... i just tab-complete haskellPackages. from inside nix repl"`{{execute}}
+
 `nix-env -f '<nixpkgs>' -qaP firefox`{{execute}}
 
 `nix search firefox`{{execute}}
-
-`nix search brave`{{execute}}
-
-`cowsay "clever the cows says... i just tab-complete haskellPackages. from inside nix repl"`{{execute}}
 
 `nix repl '<nixpkgs>'`{{execute}}
 
