@@ -1,4 +1,8 @@
-Welcome to your first Katacoda Scenario!
+Install Emoncms on Ubuntu / Debian Linux
 
 
-useradd -m nixuser -G sudo
+This guide should work on most debian systems including Ubuntu.
+
+For installation guide on installing emoncms on a raspberrypi see the RaspberryPi installation guides.
+
+
