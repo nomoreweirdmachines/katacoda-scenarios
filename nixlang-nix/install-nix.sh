@@ -9,6 +9,5 @@ useradd -m nixuser -G sudo;su - nixuser
 
 curl https://nixos.org/nix/install | sh
 
-. ./home/nixuser/.nix-profile/etc/profile.d/nix.sh`
-echo ". ./home/nixuser/.nix-profile/etc/profile.d/nix.sh"
+. /home/nixuser/.nix-profile/etc/profile.d/nix.sh
 
