@@ -7,8 +7,8 @@
     "steps": [
 	    {
       "title": "Step 1 - install nix package manager on ubnutu",
-      "text": "step1.md"
-      "code: "install-nix.sh"
+      "text": "step1.md",
+      "code": "install-nix.sh"
     },
     {
       "title": "Step 2 - install cowsay........ blimey!",
