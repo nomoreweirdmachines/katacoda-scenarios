@@ -1,6 +1,6 @@
 {
-  "title": "Installing the Nix package manager",
-  "description": "Installing the nix package manager",
+  "title": "Building things with Nix",
+  "description": "Overview of the build process",
   "difficulty": "beginner",
   "time": "8 seconds ",
   "details": {
@@ -8,10 +8,11 @@
 	    {
       "title": "Step 1 - Please wait while we install nix package manager",
       "text": "step1.md",
+      "courseData": "hello.nix", 
       "code": "install-nix.sh"
     },
     {
-      "title": "Step 2 - install cowsay........ blimey!",
+      "title": "Step 2 - checkout hello.nix",
       "text": "step2.md"
     },
     {
