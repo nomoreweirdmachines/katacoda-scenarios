@@ -1,4 +1,4 @@
-This is your first step.
+lets Build some Things
 
 for hearing input i'd recommend https://www.youtube.com/watch?v=YcL8SvyKtE4
 Cymande - Dove
@@ -6,22 +6,29 @@ Cymande - Dove
 
 ## Task
 
-let install something....
+lets build default.nix with nix-build....
 
-`nix-env -i cowsay`{{execute}}
+`nix-build default.nix`{{execute}}
 
-Okay? that looks weird.... eh? what just happened?
+if no file is give to nix-build then it will automagically look for default.nix in the present working directory of your shell (pwd)
 
-`cowsay https://twich.tv/rolandvdrums`{{execute}}
+`pwd`{{execute}}
 
-where did that come from?
+`nix-build`{{execute}}
 
-`type cowsay`{{execute}}
+the output of the build is copied into the nix store (/nix/store/..)
+for convience nix-build will generate a symbolic link pointing out the build artifacts. (results->/nix/store/......)
 
-why does it live there?
+`ls results`{{execute}}
 
-`ls -lha /home/nixuser/.nix-profile/bin/cowsay`{{execute}}
+`ls -lah results`{{execute}}
 
-should i be worried... no!......   :-)
 
+`ls results/bin`{{execute}}
+`ls results/share`{{execute}}
+
+
+lets our built software
+
+`results/bin/hello`{{execute}}
 
