@@ -1,4 +1,3 @@
-Welcome to your first Katacoda Scenario!
+Installing the Nix package manager (single user mode).
 
 
-useradd -m nixuser -G sudo
