@@ -9,6 +9,10 @@ let search for a package something....
 we have to a little 'hack' to get "nix search" to work
 https://github.com/NixOS/nix/issues/1865
 
+there seems to be more to this bug?
+https://github.com/NixOS/nix/issues/3119
+
+
 `echo $NIX_PATH`{{execute}}
 
 `NIX_PATH=nixpkgs=$NIX_PATH/nixpkgs`{{execute}}
