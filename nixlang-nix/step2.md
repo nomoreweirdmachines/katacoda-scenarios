@@ -6,7 +6,7 @@ Cymande - Dove
 
 ## Task
 
-let install something....
+let install a package....
 
 `nix-env -i cowsay`{{execute}}
 
@@ -14,7 +14,7 @@ Okay? that looks weird.... eh? what just happened?
 
 `cowsay https://twich.tv/rolandvdrums`{{execute}}
 
-where did that come from?
+what path does that executable code come from?
 
 `type cowsay`{{execute}}
 

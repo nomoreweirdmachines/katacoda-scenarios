@@ -6,7 +6,7 @@ let search for a package something....
 
 `nix search cowsay`{{execute}}
 
-we have to a little 'hack' to get "nix search" to work
+we have to a little 'hack' to get "nix search" to work properly
 https://github.com/NixOS/nix/issues/1865
 
 there seems to be more to this bug?

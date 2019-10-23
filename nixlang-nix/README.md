@@ -1,1 +1,3 @@
-# Katacoda Nix Install 
+# Using the nix package builder
+
+

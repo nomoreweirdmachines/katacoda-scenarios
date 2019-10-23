@@ -6,6 +6,10 @@ Cymande - Dove
 
 ## Task
 
+lets checkout some code from git(hub)
+
+git clone 
+
 lets build default.nix with nix-build....
 
 `nix-build default.nix`{{execute}}

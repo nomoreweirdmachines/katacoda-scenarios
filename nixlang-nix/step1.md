@@ -19,3 +19,4 @@ variables are set, either log in again, or type
 
 `. /home/nixuser/.nix-profile/etc/profile.d/nix.sh`{{execute}}
 
+this will update you current shells varibles to support nix
